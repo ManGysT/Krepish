@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{2200C71A-A978-4959-B95A-2ED4B350F02A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basics", "basics", "{452A4588-8D55-432E-A964-29B77D0AD2DA}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\basics\22.png = Resources\basics\22.png
+		Resources\basics\23.png = Resources\basics\23.png
+		Resources\basics\24.png = Resources\basics\24.png
+		Resources\basics\25.png = Resources\basics\25.png
+		Resources\basics\26.png = Resources\basics\26.png
+		Resources\basics\a.png = Resources\basics\a.png
+		Resources\basics\b.png = Resources\basics\b.png
+		Resources\basics\c.png = Resources\basics\c.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "photos", "photos", "{DAA6C0C7-17B9-4DB4-8E70-6B6329817532}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\photos\CO6A0084.jpg = Resources\photos\CO6A0084.jpg
+		Resources\photos\CO6A0085.jpg = Resources\photos\CO6A0085.jpg
+		Resources\photos\CO6A0086.jpg = Resources\photos\CO6A0086.jpg
+		Resources\photos\CO6A0087.jpg = Resources\photos\CO6A0087.jpg
+		Resources\photos\CO6A0088.jpg = Resources\photos\CO6A0088.jpg
+		Resources\photos\CO6A0089.jpg = Resources\photos\CO6A0089.jpg
+		Resources\photos\CO6A0090.jpg = Resources\photos\CO6A0090.jpg
+		Resources\photos\CO6A0092.jpg = Resources\photos\CO6A0092.jpg
+		Resources\photos\CO6A0093.jpg = Resources\photos\CO6A0093.jpg
+		Resources\photos\CO6A0094.jpg = Resources\photos\CO6A0094.jpg
+		Resources\photos\CO6A0095.jpg = Resources\photos\CO6A0095.jpg
+		Resources\photos\CO6A0096.jpg = Resources\photos\CO6A0096.jpg
+		Resources\photos\CO6A0097.jpg = Resources\photos\CO6A0097.jpg
+		Resources\photos\CO6A0098.jpg = Resources\photos\CO6A0098.jpg
+		Resources\photos\CO6A0099.jpg = Resources\photos\CO6A0099.jpg
+		Resources\photos\CO6A0100.jpg = Resources\photos\CO6A0100.jpg
+		Resources\photos\CO6A0101.jpg = Resources\photos\CO6A0101.jpg
+		Resources\photos\CO6A0102.jpg = Resources\photos\CO6A0102.jpg
+		Resources\photos\CO6A0104.jpg = Resources\photos\CO6A0104.jpg
+		Resources\photos\CO6A0105.jpg = Resources\photos\CO6A0105.jpg
+		Resources\photos\CO6A0106.jpg = Resources\photos\CO6A0106.jpg
+		Resources\photos\CO6A0107.jpg = Resources\photos\CO6A0107.jpg
+		Resources\photos\CO6A0108.jpg = Resources\photos\CO6A0108.jpg
+		Resources\photos\CO6A0109.jpg = Resources\photos\CO6A0109.jpg
+		Resources\photos\CO6A0110.jpg = Resources\photos\CO6A0110.jpg
+		Resources\photos\CO6A0111.jpg = Resources\photos\CO6A0111.jpg
+		Resources\photos\CO6A0112.jpg = Resources\photos\CO6A0112.jpg
+		Resources\photos\CO6A0114.jpg = Resources\photos\CO6A0114.jpg
+		Resources\photos\CO6A0115.jpg = Resources\photos\CO6A0115.jpg
+		Resources\photos\CO6A0116.jpg = Resources\photos\CO6A0116.jpg
+		Resources\photos\CO6A0117.jpg = Resources\photos\CO6A0117.jpg
+		Resources\photos\CO6A0118.jpg = Resources\photos\CO6A0118.jpg
+		Resources\photos\CO6A0119.jpg = Resources\photos\CO6A0119.jpg
+		Resources\photos\CO6A0120.jpg = Resources\photos\CO6A0120.jpg
+		Resources\photos\CO6A0121.jpg = Resources\photos\CO6A0121.jpg
+		Resources\photos\CO6A0122.jpg = Resources\photos\CO6A0122.jpg
+		Resources\photos\CO6A0123.jpg = Resources\photos\CO6A0123.jpg
+		Resources\photos\CO6A0124.jpg = Resources\photos\CO6A0124.jpg
+		Resources\photos\CO6A0125.jpg = Resources\photos\CO6A0125.jpg
+		Resources\photos\CO6A0126.jpg = Resources\photos\CO6A0126.jpg
+		Resources\photos\CO6A0127.jpg = Resources\photos\CO6A0127.jpg
+		Resources\photos\CO6A0128.jpg = Resources\photos\CO6A0128.jpg
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Src", "Src\", "{625BB5D2-79D2-4B30-B9A0-0559B16E566F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12857"
+		Debug.AspNetCompiler.PhysicalPath = "Src\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12857\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12857"
+		Release.AspNetCompiler.PhysicalPath = "Src\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12857\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12857"
+		SlnRelativePath = "Src\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{625BB5D2-79D2-4B30-B9A0-0559B16E566F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625BB5D2-79D2-4B30-B9A0-0559B16E566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{452A4588-8D55-432E-A964-29B77D0AD2DA} = {2200C71A-A978-4959-B95A-2ED4B350F02A}
+		{DAA6C0C7-17B9-4DB4-8E70-6B6329817532} = {2200C71A-A978-4959-B95A-2ED4B350F02A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		LessCompiler = 625bb5d2-79d2-4b30-b9a0-0559b16e566f
+		SolutionGuid = {3A8BEE1A-E709-42F4-958F-E898CEA7157E}
+	EndGlobalSection
+EndGlobal

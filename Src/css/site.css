@@ -1,0 +1,229 @@
+﻿body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+}
+a {
+  color: #333333;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+.top-header {
+  background: #fff;
+  border-bottom: 1px solid #ededed;
+  padding: 1.5rem 1rem;
+}
+.top-header a {
+  color: #333333;
+}
+.top-header a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+.top-header .logo {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.top-header .phone .icon-text {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0;
+}
+.top-header .phone .number {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+.top-header .location {
+  white-space: nowrap;
+}
+.top-header .schedule {
+  white-space: nowrap;
+}
+.top-header .schedule .day {
+  padding-right: 0.25rem;
+}
+.top-header .schedule .time {
+  padding-left: 0.25rem;
+}
+.top-header .icon-text {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding-left: 0.5rem;
+}
+.top-header p {
+  margin: 0;
+}
+.top-header i {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.navbar {
+  background: #fff;
+  border-top: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.navbar .navbar-brand {
+  padding: 0;
+  margin: 0 1rem;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+.navbar .phone {
+  margin: 0 1rem;
+  white-space: nowrap;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+.navbar .phone .icon-text {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0;
+}
+.navbar .phone .number {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.navbar .nav .nav-item {
+  padding: 0 1rem;
+}
+.navbar .nav .nav-item .nav-link {
+  border-top: 0.25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
+  color: #333333;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  padding: 0.5rem;
+}
+.navbar .nav .nav-item.active > .nav-link,
+.navbar .nav .nav-item .nav-link.active,
+.navbar .nav .nav-item .nav-link.show,
+.navbar .nav .nav-item.show > .nav-link {
+  border-bottom: 0.25rem solid #00a458;
+}
+.navbar p {
+  margin: 0;
+}
+.navbar i {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.navbar.fixed-top {
+  background-color: rgba(255, 255, 255, 0.97);
+  border-top: 1px solid #999999;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.45);
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+}
+.navbar.fixed-top .navbar-brand {
+  opacity: 1;
+}
+.navbar.fixed-top .phone {
+  opacity: 1;
+}
+main section {
+  position: relative;
+}
+main section.home {
+  /*.carousel-item {
+                height: 45rem;
+
+            }*/
+}
+main section.home .section-header {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 0 3px #000;
+}
+main section.home .carousel-indicators li {
+  width: 7rem;
+  height: 4px;
+}
+main section.goods .list-group-item {
+  font-size: 1.5rem;
+}
+main section.partners .brands {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+main section.partners .brands .brand-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+section .section-header {
+  color: #333333;
+  font-size: 2.5rem;
+  margin: 5rem 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+section .featurette-divider {
+  margin: 5rem 0;
+}
+footer {
+  color: #fff;
+  margin-top: 5rem;
+}
+footer .content {
+  background: linear-gradient(0deg, #422d60 0%, #543977 100%);
+  padding: 3rem 0 5rem;
+}
+footer .content h4 {
+  padding-bottom: 1rem;
+}
+footer .content a {
+  color: #fff;
+}
+footer .content a .icon-text {
+  line-height: 1.5rem;
+}
+footer .content .schedule {
+  white-space: nowrap;
+}
+footer .content .schedule .day {
+  padding-right: 0.25rem;
+}
+footer .content .schedule .time {
+  padding-left: 0.25rem;
+}
+footer .content .icon-text {
+  padding-left: 0.25rem;
+}
+footer .content a .icon-text {
+  padding-left: 0;
+}
+footer .content i {
+  line-height: 1.5rem;
+}
+footer .map {
+  height: 50rem;
+  margin: 0;
+  padding: 0;
+}
+footer .map .placeholder {
+  color: #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
